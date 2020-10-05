@@ -1,0 +1,20 @@
+#https://in.pinterest.com/pin/747808713120875493/
+#subcribed by codehouseindia
+import java.util.Scanner;
+public class maximum_3 {
+	public static void main(String[] args) {
+			int a,b,c,ans;
+		System.out.println("Author name=Viresh Solanki");
+		Scanner s= new Scanner(System.in);
+		System.out.print("enter a=");
+		a=s.nextInt();
+		System.out.print("enter b=");
+		b=s.nextInt();
+		System.out.print("enter c=");
+		c=s.nextInt();
+		ans=(a>b)?(a>c)?a:c:(b>c)?b:c;
+		System.out.print("answer="+ans);
+
+	}
+
+}
