@@ -1,0 +1,13 @@
+public class Avengers 
+{
+public static void main(String[]args)
+{
+int a,b,c
+System.out.println("Enter a number for A")
+a=in.nextInt()
+System.out.println("Enter a number for B")
+b=in.nextInt()
+c=a+b
+System.out.println("Your answer is="+c)
+}
+}
