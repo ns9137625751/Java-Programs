@@ -1,7 +1,6 @@
 // https://www.facebook.com/anushka.saine.735/posts/137136021429328
 // subscribed by status gram
-import java.util.
-
+import java.util.*;
 //Simple calculator
 
 public class calc
@@ -28,29 +27,41 @@ public class calc
         double multiplication = 3;
         double division = 4 ;
         double power = 5;
-        if (somethin == addition) {
+        if (somethin == addition)
+        {
         	c = a + b;  
-        	System.out.println(a + " + " + b + " = " + c);  }
-        else if (somethin == subtraction)  {
+        	System.out.println(a + " + " + b + " = " + c);  
+        }
+        else if (somethin == subtraction) 
+        {
         	c = a - b;  
-        	System.out.println(a + " - " + b + " = " + c);	}
-        else if (somethin == multiplication)	{
+        	System.out.println(a + " - " + b + " = " + c);
+        }
+        else if (somethin == multiplication)	
+        {
         	c = a * b;   
-        	System.out.println(a + " * " + b + " = " + c);	}
-        else if (somethin == division)   {
+        	System.out.println(a + " * " + b + " = " + c);
+        }
+        else if (somethin == division) 
+        {
         	c = a / b;  
-        	System.out.println(a + " / " + b + " = " + c);	}
-        else if (somethin == power)	{
-        	System.out.println("Enhance A or B?" +
-        			"\n1.A" +
-        			"\n2.B");
+        	System.out.println(a + " / " + b + " = " + c);	
+        }
+        else if (somethin == power)	
+        {
+        	System.out.println("Enhance A or B?" +"\n1.A" +"\n2.B");
         	double enhance = in.nextDouble();
         	double first = 1;
         	double second = 2;
-        		if (enhance == first) {
-        			System.out.println(Math.pow(a, 2)); }	
-        		else if (enhance == second); {
-        			System.out.println(Math.pow(b, 2)); }
+        		if (enhance == first) 
+        {
+        			System.out.println(Math.pow(a, 2)); 
+                
+         }	
+        		else if (enhance == second); 
+         {
+        			System.out.println(Math.pow(b, 2)); 
+         }
         
         }
     }
