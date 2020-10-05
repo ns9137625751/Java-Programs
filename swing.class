@@ -1,0 +1,25 @@
+#https://www.facebook.com/allan.fernandes.716970/posts/2873704399437662
+#Subscribed by Allan for Code House
+import javax.swing.*;
+public class JTextFieldPgm
+{
+  public static void main(String args[])
+  {
+    JFrame f=new JFrame("My first App");
+    JLabel namelabel= new JLabel("User ID: "); 
+    namelabel.setBounds(10, 20, 70, 10);
+    JLabel passwordLabel = new JLabel("Password: "); 
+    passwordLabel.setBounds(10, 50, 70, 10);
+    JTextField jt = new JTextField(); 
+    jt.setBounds(80, 20, 100, 20);
+    JPasswordField	jp = new JPasswordField(); 
+    jp.setBounds(80, 50, 100, 20);
+    f.add(namelabel);
+    f.add( passwordLabel);
+    f.add(jt);
+    f.add(jp);
+    f.setSize(300, 300);
+    f.setLayout(null);
+    f.setVisible(true);
+}
+}
