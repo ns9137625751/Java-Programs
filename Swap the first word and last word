@@ -1,0 +1,36 @@
+#https://www.facebook.com/profile.php?id=100013277143928&__tn__=%2CdC-R-R&eid=ARBKbLxMZblgtFE4DpGns8ObnqM8AwcGnliVKTU_RNGlr2ePyy5v4Pn3iYvCKxZa0XLaGMlr3qDi5TlC&hc_ref=ARQ24E17s7oDHvteqiO7eOM3KzHs079jvEC9GCUvn4TCq5SdVIPDZK9jkcBpFkwXxfY&fref=nf
+
+import java.util.Scanner;
+class MainStr12 
+{
+ public static void main(String[] args) 
+ {
+  Scanner sc= new Scanner(System.in);
+  System.out.println("Enter the Sentence.. ");
+    String st=sc.nextLine();
+  char ch[]=st.toCharArray();// string charcter array
+      int f=0;
+   int l=0;
+  for(int i=0;i<ch.length;i++)
+  {
+   
+   if(i==0&&ch[i]!=' '||ch[i]!=' '&&ch[i-1]==' ')
+    {
+     f=i;
+    }
+    
+      if(i==ch.length-1&&ch[i]!=' '||ch[i]!=' '&&ch[i+1]==' ')
+    {
+     l=i;
+
+     char temp=ch[f];
+     ch[f]=ch[l];
+     ch[l]=temp;
+    }
+  }
+
+  st=new String(ch);//charcter array to String
+ System.out.println(st);
+
+ }
+}
