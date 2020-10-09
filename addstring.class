@@ -1,0 +1,24 @@
+#https://in.pinterest.com/pin/747808713120875493/
+#Subscribed by codehouseindia
+import java.util.Scanner;
+public class addstring {
+	public static void main(String[] args) {
+		int a,b,ans;
+		String s1,s2,s3;
+		System.out.println("author name=Viresh Solanki");
+		Scanner s=new Scanner(System.in);
+		System.out.print("enter a=");
+		a=s.nextInt();
+		System.out.print("enter b=");
+		b=s.nextInt();
+		ans=a+b;
+		System.out.println("answer="+ans);
+		System.out.print("enter s1=");
+		Scanner sc=new Scanner(System.in);
+		s1=sc.nextLine();
+		System.out.print("enter s2=");
+		s2=sc.nextLine();
+		s3=s1.concat(s2);
+		System.out.println("answer="+s3);
+	}
+}

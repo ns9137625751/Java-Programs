@@ -1,0 +1,16 @@
+[
+	{
+		"employee": {
+			"firstName": "Deepak",
+			"lastName": "Singh",
+			"website": "google.com"
+		}
+	},
+	{
+		"employee": {
+			"firstName": "Dexter",
+			"lastName": "Jackson",
+			"website": "example.com"
+		}
+	}
+]
