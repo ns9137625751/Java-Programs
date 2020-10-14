@@ -2,7 +2,7 @@ import java.io.*;
 import java.math.*; 
   
 // Function to calculate sum of divisors 
-class GFG{ 
+class AbundantNumber{ 
     static int getSum(int n) 
     { 
         int sum = 0; 
